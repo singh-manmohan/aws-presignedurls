@@ -13,6 +13,9 @@ import com.amazonaws.services.s3.model.GeneratePresignedUrlRequest;
 import java.net.URL;
 import java.util.Calendar;
 
+/**
+ * This class is used to generate - Pre signed URL to download files from s3 bucket of aws
+ */
 public class CreatePresignedURL {
     public static void main(String[] args) {
 		
